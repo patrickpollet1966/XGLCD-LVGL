@@ -10,5 +10,7 @@ XGLCD-LVGL is based on <a href="https://github.com/xgraph/XGLCD" target="_blank"
 
 Power supply consideration : RA8875 usually control large displays witch needs lot of current, USB will not provide enough energy to feed an ESP32, the LCD and the touch panel, please use an external power supply to avoid weird behaviors.
 
+Wiring consideration : The code provided for esp32 works with DOIT ESP32 DEVKIT V1, if you want to use another board edit XGLCD.h and modify the defines to use the right pins for the SPI port you want to use.
+
 Licence GNU GPL v3.0.
 
